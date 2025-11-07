@@ -42,7 +42,7 @@ fi
 # Fingerprints auslesen
 for node_dir in "${node_dirs[@]}"; do
     NODE_NAME=$(basename "$node_dir")
-    CERT_FILE="$node_dir/pve-ssl.pem"
+    CERT_FILE="$node_dir/pveproxy-ssl.pem"
 
     echo -e "${GREEN}=== Node: $NODE_NAME ===${RESET}"
 
